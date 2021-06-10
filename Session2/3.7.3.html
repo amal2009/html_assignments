@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="add-details">
+            <div class="your-details">
+                <div class="title-wrapper">
+                    <h2>Step 1: Your details</h2>
+                </div>
+                <div class="input-box">
+                    <form action="">
+                        <div class="form-name-wrapper">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="First and last name">
+                        </div>
+                        <div class="form-email-wrapper">
+                            <label for="email">Email</label>
+                            <input type="text" id="email" placeholder="example@domain.com">
+                        </div>
+                        <div class="form-number-wrapper">
+                            <label for="number">Number</label>
+                            <input type="text" name="number" id="number" placeholder="Eg: +123456789">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="address-details">
+                <div class="title-wrapper">
+                    <h2>Step 2: Delivery Address</h2>
+                </div>
+                <div class="input-box">
+                    <form action="">
+                        <div class="address-wrapper">
+                            <label for="address">Address</label>
+                            <textarea name="address" id="address" cols="10" rows="10"></textarea>
+                        </div>
+                        <div class="postcode-wrapper">
+                            <label for="post-code">Post Code</label>
+                            <input type="text" id="post-code">
+                        </div>
+                        <div class="country-wrapper">
+                            <label for="country">Country</label>
+                            <input type="text" name="country" id="country">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="card-details">
+                <div class="title-wrapper">
+                    <h2>Step 3: Card Details</h2>
+                </div>
+                <div class="input-box">
+                    <div class="card-details">
+                        <div class="card-title">
+                            Card type
+                        </div>
+                        <div class="card-options">
+                            <div class="visa">
+                                <input type="radio" id="visa" name="card">
+                                <label for="visa">Visa</label>
+                            </div>
+                            <div class="amex">
+                                <input type="radio" id="amex" name="card">
+                                <label for="amex">AmEx</label>
+                            </div>
+                            <div class="mastercard">
+                                <input type="radio" id="mastercard" name="card">
+                                <label for="mastercard">Mastercard</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
