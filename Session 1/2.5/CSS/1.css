@@ -1,0 +1,122 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+*{
+    font-family: Georgia, serif;
+}
+.blog-post{
+    padding: 5%;
+}
+
+.left-body{
+    width: 25%;
+    vertical-align: top;
+    height:500px;
+    color: white;
+    background: rgb(72, 99, 126);
+    display: inline-block;
+}
+.right-body{
+    width: 60%;
+    display: inline-block;
+}
+
+.right-body-top{    
+    display: block;
+    padding: 5%;
+    
+}
+.sub-heading-wrapper{
+    display: block;
+}
+.right-body-top-header-content{
+    width: 90%;
+    display: inline-block;
+}
+.image-wrapper{
+    display: inline-block;
+}
+.sub-heading-wrapper{
+    color: rgb(113, 121, 129);
+    font-size: 0.75em;
+    border-bottom: 1px solid rgb(177, 174, 174);
+}
+.right-body-top-header-content-title{
+    font-weight: bold;
+    font-size: 1.75em;
+}
+img {
+  border-radius: 50%;
+}
+.name{
+    display: inline-block;
+    color: rgb(42, 148, 184);
+}
+.language{
+    display: inline-block;
+    background: rgb(72, 199, 120);
+    padding: 3px;
+    border-radius: 25%;
+
+}
+.language-css{
+    background: rgb(59, 158, 88);
+    display: inline-block;
+    padding: 3px;
+    border-radius: 25%;
+}
+.language-pure{
+    background: rgb(34, 78, 128);
+    color: white;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 25%;
+}
+.right-body-top-header,.right-body-top-content,
+.right-body-top-header-content-descript
+{
+    padding-top: 10px;
+}
+.right-body-top-header-content-descript{
+    padding-top: 10px;
+}
+.left-body-box-content{
+    display: block;
+}
+.pure,.yui-library{
+    display: inline-block;
+}
+.left-body-header-content{
+    text-align: right;
+    font-size: 2em;
+}
+.left-body-wrapper{
+    padding: 120px 20px 150px 100px;
+}
+.left-body-description-content{
+    text-align: right;
+    font-size: 1.2em;
+    color: rgb(172, 165, 157);
+    
+}
+.left-body-wrapper{
+    padding-left: 30%;
+}
+.left-body-header-content,.left-body-description
+,.left-body-box-content{
+    padding-top: 10px;
+}
+.yui-library,.pure{
+    padding: 5px;
+    border: 2px solid white;
+}
+
+.pure-content,.yui-library-content{
+    font-size: 00.75em;
+}
+.left-body-box-content{
+    text-align: right;
+}
