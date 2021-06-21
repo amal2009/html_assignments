@@ -1,0 +1,42 @@
+*{box-sizing: border-box;}
+*{
+    font-family: "Open Sans";
+}
+.contact-us-content{
+    background-color: rgb(103, 114, 122);
+    text-align: center;
+    border-radius: 25px;
+    height: 220px;
+    width: 100%;
+    color:whitesmoke;
+    font-size: 1.25em;
+}
+.contact-us-content-wrapper{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    
+}
+.address-values{
+    font-size: 0.75em;
+    padding-top: 50px;
+}
+.address{
+    font-size: 1em;
+}
+.title{
+    margin: 25px;
+    font-size: 1.5em;
+}
+.label-maps{
+    margin-top: 25px;
+    font-size: medium;
+}
+a{
+    color: white;
+}
+.contact-us-body{
+    margin: 2%;
+    border: 2px solid black;
+    border-radius: 25px;
+}
