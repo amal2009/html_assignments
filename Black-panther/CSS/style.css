@@ -186,4 +186,6 @@ a:hover{
 .footer-copywrite{
     padding: 2%;
 }
-
+.footer-wrapper{
+    border-top: 5px solid #000;
+}
