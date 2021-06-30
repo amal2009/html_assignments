@@ -39,9 +39,12 @@ ul {
 .label{
     width: 35%;
 }
+.button-wrapper{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
 .form-item{
     padding: 2%;
 }
-.button-wrapper{
-    text-align: center;
-}
+
